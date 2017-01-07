@@ -1,4 +1,4 @@
-# wiegand-26bit-converter
+# wiegand-26bit-calculator
 Input any 26bit Wiegand form i.e Facility code, and unique code, Hex, binary or Proxmark TagID the output will be all corresponding formats. This can be helpfull when cloning HID cards when you only have the facility code and unique code. The Proxmark ID is a 'special' hex code generated in the client application
 ```
 Variables:
@@ -10,10 +10,10 @@ Variables:
 ```
 ```
 Examples:
-./wiegland-converter -p 2005c7c200
-./wiegland-converter -f 227 -u 57600
-./wiegland-converter -x 1C7C200
-./wiegland-converter -b 01110001111100001000000000
+./wiegland-calculator -p 2005c7c200
+./wiegland-calculator -f 227 -u 57600
+./wiegland-calculator -x 1C7C200
+./wiegland-calculator -b 01110001111100001000000000
 ```
 
 ```
