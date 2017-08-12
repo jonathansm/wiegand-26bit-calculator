@@ -10,15 +10,15 @@ Variables:
 ```
 ```
 Examples:
-./wiegland-calculator -p 2005c7c200
-./wiegland-calculator -f 227 -u 57600
-./wiegland-calculator -x 1C7C200
-./wiegland-calculator -b 01110001111100001000000000
+./wiegand-calculator -p 2005c7c200
+./wiegand-calculator -f 227 -u 57600
+./wiegand-calculator -x 1C7C200
+./wiegand-calculator -b 01110001111100001000000000
 ```
 
 ```
 Output Example:
------------  Wiegland Card Information  -----------
+-----------  Wiegand Card Information  -----------
 | Facility Code                               227 |
 | Unique Code                               57600 |
 | Proxmark Code                        2005c7c200 |
