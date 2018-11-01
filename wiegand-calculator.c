@@ -7,6 +7,7 @@
 #include <string.h>
 #include <stdbool.h>
 #include <ctype.h>
+#include <math.h>
 
 #define MAX_BITS 26
 #define MAX_FACILITY_BITS 8
